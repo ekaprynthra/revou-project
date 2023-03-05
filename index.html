@@ -162,9 +162,8 @@
     <script type="text/javascript"></script>
 
     <script>
-      // const name = prompt("Siapa nama Anda?", "Anonymous");
-      // document.querySelector(".title").innerHTML =
-      //   "Selamat datang, " + name;
+      const name = prompt("Siapa nama Anda?", "Anonymous");
+      document.querySelector(".title").innerHTML = "Selamat datang, " + name;
 
       const validateForm = () => {
         const name = document.forms["message-form"]["name"].value;
